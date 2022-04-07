@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+  mat-form-field {
+    display: block;
+    margin: auto;
+      color: aliceblue;
+}

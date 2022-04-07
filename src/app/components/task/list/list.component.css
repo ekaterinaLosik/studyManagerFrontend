@@ -1,0 +1,45 @@
+.list h1 {
+    font-weight: 500;
+    padding: 10px 12px 0 12px;
+    background: #202020;
+  }
+  .list {
+    background: #252525;
+    margin-bottom: 65px;
+    color:beige;
+  }
+  mat-selection-list {
+    height: 100%;
+  }
+  .mat-list-option-cover {
+    padding: 15px;
+  }
+  mat-list-option {
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+  
+  }
+  
+  .mat-list-item {
+    height: 70px !important;
+  }
+  .task-date {
+    color: rgb(241, 229, 187);
+  }
+  .task-course{
+    color:cadetblue;
+  }
+.todo{
+  color: #C35300;
+}
+.doing{
+  color:#00C3A1;
+}
+.onhold{
+  color: #0092C3;
+}
+.done{
+color: #C30058;
+}

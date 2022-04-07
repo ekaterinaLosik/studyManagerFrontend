@@ -1,0 +1,20 @@
+/* For mobile phones: */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+[class*="col-"] {
+    float: left;
+    width: 100%;
+  }
+  
+  
+  
+  @media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .col-1 {width: 50%; min-width: 500px;}
+    
+    .col-2 {width: 50%;}
+
+  }
